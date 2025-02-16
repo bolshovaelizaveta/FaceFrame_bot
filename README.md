@@ -49,6 +49,7 @@
         ```
 
 4.  **Установите зависимости:** 
+
     ```bash
     pip install -r requirements.txt
     ```
@@ -58,6 +59,7 @@
     ```bash
     pip install python-telegram-bot
     ```
+
 
 6.  **Получите API-токен Telegram-бота:**
     Отправлю в ЛС по запросу, чтобы не хранить его здесь.
