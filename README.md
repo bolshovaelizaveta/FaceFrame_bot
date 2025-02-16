@@ -78,8 +78,10 @@
 *   `/start`: Отображает приветственное сообщение и описание бота.
 *   Отправьте изображение: Бот обнаружит лица на изображении и вернет изображение с лицами, отмеченными зелеными прямоугольниками.
 
-![alt text](Test_bot.jpg)
+![alt text](screenshot/Test_bot.jpg)
 
-![alt text](validation_bot.jpg)
+![alt text](screenshot/validation_bot.jpg)
 
-![alt text](Таблица в PostgreSQL.png)
+![alt text](screenshot/table_PostgreSQL.png)
+
+![alt text](screenshot/Pytest.jpg)
