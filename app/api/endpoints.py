@@ -79,8 +79,7 @@ async def detect_faces(files: List[UploadFile] = File(...), db: Session = Depend
 
         except Exception as e:
             logging.error(f"File processing errors: {e}")
-            raise HTTPException(status_code=500, detail=str(e))  # Raising exceptions for the error handler
+            raise HTTPException(status_code=500, detail=str(e))  
     else:
         logging.warning("No files were uploaded.")
-        raise HTTPException(status_code=400, detail="No files were uploaded.") # Raising exceptions for the error handler
-
+        raise HTTPException(status_code=400, detail="No files were uploaded.") 
