@@ -37,7 +37,7 @@
 
 1.  **Клонируйте репозиторий:** 
     ```bash
-    git clone Face_detection
+    git clone git@github.com:bolshovaelizaveta/FaceFrame_bot.git
     ```
 2.  **Создайте виртуальное окружение:** 
     ```bash
@@ -131,5 +131,3 @@ API будет доступен по адресу `http://127.0.0.1:8000`.
 ![alt text](screenshot/table_PostgreSQL.png)
 
 ![alt text](screenshot/Pytest.jpg)
-
-![alt text](screenshot/table_PostgreSQL.png)
