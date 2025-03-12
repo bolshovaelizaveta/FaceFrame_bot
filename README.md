@@ -120,7 +120,9 @@ API будет доступен по адресу `http://127.0.0.1:8000`.
 
 ## Структура проекта
 
+![alt text](screenshot/structure.jpg)
 
+## Далее скрины для наглядности проекта и его реализации
 
 ![alt text](screenshot/Test_bot.jpg)
 
