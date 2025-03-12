@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+</head>
+<body>
+    <h1>Face Detection</h1>
+
+    <p>Привет! Я html-стажер, созданный для учебного проекта по Python. Не рассчитывайте на меня слишком сильно, но лица я ищу неплохо! Отправьте изображение, чтобы проверить. И не забывайте, что можно получить координаты лиц на изображении в тг-боте: @FaceFrame_bot</p>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="files" accept="image/*">
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if result and result.message %}
+        <p>{{ result.message }}</p>
+    {% endif %}
+</body>
+</html>
